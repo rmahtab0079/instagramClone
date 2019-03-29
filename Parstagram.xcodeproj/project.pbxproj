@@ -15,6 +15,7 @@
 		49CD44D822444D4B003313F5 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CD44D722444D4B003313F5 /* FeedViewController.swift */; };
 		49CD44DA22445D4D003313F5 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CD44D922445D4D003313F5 /* CameraViewController.swift */; };
 		49CD44DC2244681F003313F5 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CD44DB2244681F003313F5 /* PostTableViewCell.swift */; };
+		49E12D19224D62CA007C7554 /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E12D18224D62CA007C7554 /* CommentTableViewCell.swift */; };
 		4FC1A15EBC83ABD02542B7F8 /* Pods_Parstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09A58D21487BC977F9DFE6AD /* Pods_Parstagram.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		49CD44D722444D4B003313F5 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		49CD44D922445D4D003313F5 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		49CD44DB2244681F003313F5 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		49E12D18224D62CA007C7554 /* CommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
 		C7EBCD51647CAB27CD3A7DCE /* Pods-Parstagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parstagram.release.xcconfig"; path = "Target Support Files/Pods-Parstagram/Pods-Parstagram.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -76,6 +78,7 @@
 				49CD44D722444D4B003313F5 /* FeedViewController.swift */,
 				49CD44D922445D4D003313F5 /* CameraViewController.swift */,
 				49CD44DB2244681F003313F5 /* PostTableViewCell.swift */,
+				49E12D18224D62CA007C7554 /* CommentTableViewCell.swift */,
 			);
 			path = Parstagram;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/MessageInputBar/MessageInputBar.framework",
 				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -187,6 +191,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageInputBar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -224,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49CD44D622444D3B003313F5 /* LoginViewController.swift in Sources */,
+				49E12D19224D62CA007C7554 /* CommentTableViewCell.swift in Sources */,
 				49CD44DA22445D4D003313F5 /* CameraViewController.swift in Sources */,
 				49CD44DC2244681F003313F5 /* PostTableViewCell.swift in Sources */,
 				49CD44D822444D4B003313F5 /* FeedViewController.swift in Sources */,
